@@ -270,61 +270,6 @@ body {
 }
 
 
-.sideSection .name {
-    margin-bottom: 15px;
-    font-size: 36px;
-    font-weight: var(--big-weight);
-}
-
-.sideSection .description {
-    font-size: 22px;
-    font-weight: var(--normal-weight);
-}
-
-.sideSection .copyRight {
-    position: absolute;
-    bottom: 20px;
-}
-
-.sideSection .socialIcons {
-    width: 100%;
-    margin-top: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 15px;
-}
-
-.sideSection .icon {
-    position: relative;
-    width: 75px;
-    height: 75px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-radius: 10px;
-    background: rgba(234, 226, 214, .25);
-    -webkit-box-shadow: 0 2.5px 20px rgba(0, 0, 0, .15);
-            box-shadow: 0 2.5px 20px rgba(0, 0, 0, .15);
-}
-
-.sideSection .icon img {
-    width: 40px;
-    height: 40px;
-}
-
 
 .main {
     position: relative;
@@ -489,6 +434,7 @@ body {
     position: relative;
     width: 90%;
     height: 50px;
+    padding-top: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -545,6 +491,7 @@ body {
 .btnr, .btnres, .btnbck {
     width: 45px;
     height: 20px;
+    padding-top: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -555,7 +502,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 5px;
     font-size: 12px;
     background-color: rgba(255, 255, 255, 0.15);
